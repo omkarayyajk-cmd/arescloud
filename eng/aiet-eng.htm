@@ -1,393 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- saved from url=(0014)about:internet -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Alva's Education Foundation</title>
-<link rel="icon" href="https://edu.alvas.org/eng/imgs/favicon.ico" type="image/x-icon">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALVA'S REMOTE EDUCATION</title>
+  <link rel="icon" href="https://edu.alvas.org/eng/imgs/favicon.ico" type="image/x-icon">
 
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="./aiet-eng_files/clarity.js"></script><script type="text/javascript" async="" src="./aiet-eng_files/analytics.js"></script><script type="text/javascript" async="" src="./aiet-eng_files/js"></script><script type="text/javascript" async="" src="./aiet-eng_files/analytics.js"></script><script type="text/javascript" async="" src="./aiet-eng_files/js(1)"></script><script async="" src="./aiet-eng_files/dwr8bokuqn"></script><script async="" src="./aiet-eng_files/js(2)"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-124730361-4');
-</script>
-
-
-<!-- Global site tag (gtag.js) - DT -->
-<script async="" src="./aiet-eng_files/js(3)"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-124730361-5');
-</script>
-
-  <script src="./aiet-eng_files/JX.js"></script>
-  <link href="./aiet-eng_files/MX.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="./aiet-eng_files/style.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <script src="./aiet-eng_files/MX.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics (Preserved) -->
+  <script async="" src="./aiet-eng_files/clarity.js"></script>
+  <script type="text/javascript" async="" src="./aiet-eng_files/analytics.js"></script>
+  <script type="text/javascript" async="" src="./aiet-eng_files/js"></script>
+  <script type="text/javascript" async="" src="./aiet-eng_files/analytics.js"></script>
+  <script type="text/javascript" async="" src="./aiet-eng_files/js(1)"></script>
+  <script async="" src="./aiet-eng_files/dwr8bokuqn"></script>
+  <script async="" src="./aiet-eng_files/js(2)"></script>
   <script>
-$(document).ready(function() {
-    $('input#input_text, textarea#textarea2').characterCounter();
-    $('select').formSelect();
-
-    $('input.autocomplete').autocomplete({
-      data: {
-        "Bagalkot" : null, 
-"Bengaluru Urban" : null, 
-"Bengaluru Rural" : null, 
-"Belgaum" : null, 
-"Ballari" : null, 
-"Bidar" : null, 
-"Bijapur" : null, 
-"Chamarajanagara" : null, 
-"Chikballapur" : null, 
-"Chikkamagaluru" : null, 
-"Chitradurga" : null, 
-"Dakshina Kannada" : null, 
-"Davanagere" : null, 
-"Dharwad" : null, 
-"Gadag" : null, 
-"Gulbarga" : null, 
-"Hassan" : null, 
-"Haveri" : null, 
-"Kodagu" : null, 
-"Kolar" : null, 
-"Koppal" : null, 
-"Mandya" : null, 
-"Mysore" : null, 
-"Raichur" : null, 
-"Ramanagara" : null, 
-"Shimoga" : null, 
-"Tumkur" : null, 
-"Udupi" : null, 
-"Uttara Kannada" : null, 
-"Yadgiri" : null
-      },
-    });
-  });
-     
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-124730361-4');
   </script>
-<style>
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/mat.woff2) format('woff2');
-}
+  <script async="" src="./aiet-eng_files/js(3)"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-124730361-5');
+  </script>
 
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-  display: inline-block;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
-  -webkit-font-feature-settings: 'liga';
-  -webkit-font-smoothing: antialiased;
-}
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
 
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-</style></head>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Outfit', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#eff6ff', 100: '#dbeafe', 500: '#3b82f6', 600: '#2563eb', 700: '#1d4ed8', 800: '#1e40af', 900: '#1e3a8a', 950: '#172554',
+            }
+          }
+        }
+      }
+    }
+  </script>
 
+  <style>
+    /* Base styles */
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8fafc;
+      color: #0f172a;
+      -webkit-font-smoothing: antialiased;
+    }
 
+    /* Modern Utilities */
+    .text-gradient {
+      background: linear-gradient(135deg, #1d4ed8, #3b82f6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
 
-<body>
-<br><br>
-    <div class="container">
-          
-          <div class="card-panel z-depth-2">
-          <center> <a target="_blank" href="http://alvas.org/"><img class="responsive-img" src="./aiet-eng_files/logo.png" width="120px" height="120px"></a><br>
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      letter-spacing: 0.025em;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
+    .btn:active {
+      transform: scale(0.97);
+    }
 
-         <br>
-      
-       <div class="card hoverable z-depth-3">
-          <br><br>
-          <center><p class="cyan-text text-darken-2">Explore the Life at Alva's Engineering College</p>
-           <!-- <a target='_blank' href='https://www.youtube.com/watch?v=HKQGKlSz0NY' class="btn">Watch the Video</a>-->
+    .btn-modern {
+      position: relative;
+      overflow: hidden;
+    }
 
-            <iframe class="responsive-iframe" src="./aiet-eng_files/9iSx-AjpdoI.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-          </center>
-          <br><br><br><br><br><br>
+    .btn-modern::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: all 0.6s ease;
+    }
 
-        </div><br>
- 
-      
-          <h5 class="blue-text">Apply for Alva's Institute of Engineering and Technology</h5></center><br>
-          <div class="card-panel hoverable">
-    <form name="AEF Register" method="post" action="https://edu.alvas.org/eng/">
-            
+    .btn-modern:hover::after {
+      left: 100%;
+    }
 
+    /* Slider */
+    .slider-container {
+      position: relative;
+      flex-grow: 1;
+      min-height: calc(100vh - 5rem);
+      overflow: hidden;
+      background: #000;
+    }
 
+    .slide {
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+      transform: scale(1.05);
+      /* Zoom effect out */
+      z-index: 0;
+    }
 
+    .slide.active {
+      opacity: 1;
+      visibility: visible;
+      transform: scale(1);
+      /* Return to original scale */
+      z-index: 5;
+    }
 
-            <div class="row">
+    .slide-bg {
+      position: absolute;
+      inset: 0;
+      background-size: cover;
+      background-position: center;
+    }
 
+    .slide-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.85) 100%);
+    }
 
-            <div class="input-field col s12">
-            <i class="material-icons prefix">account_circle</i>
-                    <input id="name" max="40" type="text" name="name" required="">                        
-                    <label for="name">Full Name</label>
-                </div>
+    /* Media Containers */
+    .media-frame {
+      width: 100%;
+      max-width: 900px;
+      aspect-ratio: 16/9;
+      background: #000;
+      border-radius: 1.5rem;
+      overflow: hidden;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.1);
+      border: 4px solid rgba(255, 255, 255, 0.1);
+    }
 
-                
-                
-                
-            </div>
+    .media-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
 
-            <div class="row">
+    /* Inner Content Animation */
+    .animate-content>* {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
 
+    .slide.active .animate-content>* {
+      opacity: 1;
+      transform: translateY(0);
+    }
 
-            <div class="input-field col s12">
-            <i class="material-icons prefix">account_box</i>
-                    <input id="gname" max="40" type="text" name="gname" required="">                        
-                    <label for="gname">Guardian Name</label>
-                </div>
-                
-            </div>
+    .slide.active .animate-content>*:nth-child(1) {
+      transition-delay: 0.2s;
+    }
 
+    .slide.active .animate-content>*:nth-child(2) {
+      transition-delay: 0.4s;
+    }
 
-            <div class="row">
+    .slide.active .animate-content>*:nth-child(3) {
+      transition-delay: 0.6s;
+    }
 
+    .slide.active .animate-content>*:nth-child(4) {
+      transition-delay: 0.8s;
+    }
 
-<div class="input-field col s12">
-<i class="material-icons prefix">wc</i>
-     
-<div class="select-wrapper"><input class="select-dropdown dropdown-trigger" type="text" readonly="true" data-target="select-options-8c3ded75-5d0b-968a-7257-27bbacbebe84"><ul id="select-options-8c3ded75-5d0b-968a-7257-27bbacbebe84" class="dropdown-content select-dropdown" tabindex="0"><li id="select-options-8c3ded75-5d0b-968a-7257-27bbacbebe840" tabindex="0" class="selected"><span>Male</span></li><li id="select-options-8c3ded75-5d0b-968a-7257-27bbacbebe841" tabindex="0"><span>Female</span></li></ul><svg class="caret" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><select name="gender" required="" tabindex="-1">
-      <option value="Male" selected="">Male</option>
-      <option value="Female">Female</option>
-    </select></div>
-    <label>Your Gender</label>
+    /* Modals */
+    .modal {
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+    }
 
+    .modal.open {
+      opacity: 1;
+      visibility: visible;
+    }
 
-        
+    .modal-content {
+      transform: translateY(30px) scale(0.95);
+      transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .modal.open .modal-content {
+      transform: translateY(0) scale(1);
+    }
+
+    /* Inputs */
+    .form-input {
+      width: 100%;
+      padding: 0.875rem 1.25rem;
+      background-color: #f8fafc;
+      border: 2px solid #e2e8f0;
+      border-radius: 0.75rem;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #0f172a;
+      transition: all 0.2s ease;
+    }
+
+    .form-input:focus {
+      background-color: #ffffff;
+      border-color: #3b82f6;
+      outline: none;
+      box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+    }
+
+    .form-label {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #334155;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Hide scrollbar completely but allow scrolling */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      /* IE and Edge */
+      scrollbar-width: none;
+      /* Firefox */
+    }
+  </style>
+</head>
+
+<body class="flex flex-col min-h-screen relative">
+
+  <!-- Header -->
+  <header
+    class="bg-white/95 backdrop-blur-md border-b border-gray-200/60 sticky top-0 z-50 shadow-sm transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div class="flex items-center gap-4 cursor-pointer hover:opacity-90 transition-opacity"
+        onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        <img src="https://alvascentralschool.com/wp-content/uploads/2026/01/cropped-logo.png" alt="Alva's Logo"
+          class="h-10 sm:h-12 w-auto">
+        <div class="hidden sm:block">
+          <h1 class="font-display font-black text-2xl text-gradient uppercase tracking-tighter leading-none">Alva's
+            Remote Education</h1>
+          <p class="text-[0.65rem] font-bold text-gray-400 uppercase tracking-[0.2em] mt-1">A UNIT OF ALVA'S EDUCATION
+            FOUNDATION</p>
+        </div>
+      </div>
+      <div class="flex gap-3">
+        <!-- <button onclick="openModal('registerModal')"
+          class="hidden sm:flex btn-modern btn px-6 py-2.5 text-white bg-brand-600 hover:bg-brand-700 rounded-lg text-sm shadow-lg shadow-brand-500/25">
+          REGISTER
+        </button> -->
+      </div>
     </div>
-    
-</div>
+  </header>
 
+  <!-- Main Hero Content -->
+  <main class="flex-grow flex flex-col relative w-full overflow-hidden">
+    <section class="slider-container">
 
+      <!-- Slide 1: Welcome Video -->
+      <div class="slide absolute inset-0 active">
+        <div class="slide-bg"
+          style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2000&auto=format&fit=crop');">
+        </div>
+        <div class="slide-overlay"></div>
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center px-4 pt-10 pb-32 sm:pb-40 text-center animate-content">
+          <div class="media-frame">
+            <iframe class="w-full h-full" src="<iframe width=" 560" height="315"
+              src="https://www.youtube.com/embed/zB9gO40DBOc?si=dRokP5kgYOEZFsm2" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
 
- <div class="row">
+      <!-- Slide 2: Campus Focus Image -->
+      <div class="slide absolute inset-0">
+        <div class="slide-bg"
+          style="background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2000&auto=format&fit=crop');">
+        </div>
+        <div class="slide-overlay"></div>
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center px-4 pt-10 pb-32 sm:pb-40 text-center animate-content">
+          <div class="media-frame">
+            <img src="https://alvascentralschool.com/wp-content/uploads/2026/03/DJI_0129-2-scaled.jpg"
+              alt="Alva's Campus Highlight" class="media-img">
+          </div>
+        </div>
+      </div>
 
+      <!-- Slide 3: Interactive Learning Video -->
+      <div class="slide absolute inset-0">
+        <div class="slide-bg"
+          style="background-image: url('https://images.unsplash.com/photo-1541339907198-e08756ebafe3?q=80&w=2000&auto=format&fit=crop');">
+        </div>
+        <div class="slide-overlay"></div>
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center px-4 pt-10 pb-32 sm:pb-40 text-center animate-content">
+          <div class="media-frame">
+            <iframe class="w-full h-full"
+              src="https://www.youtube.com/embed/m7WqAayhE4o?mute=1&loop=1&playlist=m7WqAayhE4o&controls=0&showinfo=0"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
 
-            <div class="input-field col s12">
-            <i class="material-icons prefix">place</i>
-                    <input id="district" max="40" type="text" class="autocomplete" name="district" required="" data-target="autocomplete-options-fbd72cd8-0ee5-fdaa-b007-7a306c3dafef"><ul id="autocomplete-options-fbd72cd8-0ee5-fdaa-b007-7a306c3dafef" class="autocomplete-content dropdown-content" tabindex="0"></ul>                        
-                    <label for="district">District (State, if outside of Karnataka)</label>
-                </div>
-</div>
+      <!-- Fixed Floating Interface at the Bottom of Hero -->
+      <div
+        class="absolute bottom-0 left-0 w-full z-20 pb-8 pt-24 bg-gradient-to-t from-slate-900 via-slate-900/80 to-transparent">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
 
-<div class="row">
+          <!-- Slider Nav Indicators -->
+          <div class="flex justify-center gap-3 mb-6">
+            <button onclick="goToSlide(0)"
+              class="slider-dot w-10 h-1.5 rounded-full bg-white shadow-[0_0_10px_rgba(255,255,255,0.6)] transition-all duration-300"></button>
+            <button onclick="goToSlide(1)"
+              class="slider-dot w-6 h-1.5 rounded-full bg-white/30 hover:bg-white/60 transition-all duration-300"></button>
+            <button onclick="goToSlide(2)"
+              class="slider-dot w-6 h-1.5 rounded-full bg-white/30 hover:bg-white/60 transition-all duration-300"></button>
+          </div>
 
+          <!-- Action Buttons -->
+          <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 w-full items-center justify-center">
+            <!-- Primary CTA -->
+            <button onclick="openModal('registerModal')"
+              class="btn-modern btn w-full sm:w-[280px] py-4 sm:py-5 bg-brand-600 text-white rounded-xl text-lg sm:text-xl shadow-[0_15px_30px_-5px_rgba(37,99,235,0.5)] hover:bg-brand-500 border border-brand-400/30">
+              REGISTER
+            </button>
+            <!-- Secondary CTA -->
+            <button onclick="openModal('loginModal')"
+              class="btn w-full sm:w-[280px] py-4 sm:py-5 bg-white text-gray-900 rounded-xl text-lg sm:text-xl shadow-[0_15px_30px_-5px_rgba(0,0,0,0.3)] hover:bg-gray-50 border border-transparent">
+              LOGIN
+            </button>
+          </div>
 
+        </div>
+      </div>
+    </section>
+  </main>
 
+  <!-- Footer -->
+  <footer class="bg-gray-950 py-8 px-6 text-center z-30 relative shrink-0">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-6">
+      <div class="flex items-center gap-3">
+        <img src="https://alvascentralschool.com/wp-content/uploads/2026/01/cropped-logo.png" alt="Alva's Logo"
+          class="h-8 w-auto opacity-50 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-300 cursor-pointer">
+        <p class="text-sm font-bold text-gray-500 tracking-wide">&copy; 2026 Alva's Education Foundation.</p>
+      </div>
+      <div class="flex gap-6 text-xs font-black uppercase tracking-[0.15em] text-gray-600">
+        <a href="#" class="hover:text-white transition-colors">Privacy</a>
+        <a href="#" class="hover:text-white transition-colors">Terms</a>
+        <a href="#" class="hover:text-brand-500 transition-colors">Credits</a>
+      </div>
+    </div>
+  </footer>
 
-                <div class="input-field col s12">
-            <i class="material-icons prefix">email</i>
-                    <input id="pincode" min="111111" max="999999" title="Enter Proper Pincode" class="validate" data-length="6" type="number" name="pincode" required="">                        
-                    <label for="pincode">Pincode</label>
-                    <span class="helper-text" data-error="Enter Proper PIN" data-success=""></span>
-                </div>
-                
-            </div>           
-            
+  <!-- ================= MODALS ================= -->
 
-<div class="row">
+  <!-- Registration Modal -->
+  <div id="registerModal"
+    class="modal fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 bg-slate-900/80 backdrop-blur-md">
+    <!-- Close overlay -->
+    <div class="absolute inset-0 cursor-pointer" onclick="closeModal('registerModal')"></div>
 
-<div class="input-field col s12">
-            <i class="material-icons prefix">home</i>
-                    <input id="hometown" max="40" type="text" name="hometown" required="">                        
-                    <label for="hometown">Hometown</label>
-                </div>
-</div>
+    <div
+      class="modal-content relative w-full max-w-4xl max-h-[90vh] bg-white rounded-[2rem] shadow-2xl flex flex-col overflow-hidden">
+      <!-- Modal Header -->
+      <div class="flex items-center justify-between px-6 py-6 sm:px-10 border-b border-gray-100 bg-gray-50/80 shrink-0">
+        <div>
+          <h2 class="font-display font-black text-3xl text-gray-900 uppercase tracking-tight">Application <span
+              class="text-brand-600">Form</span></h2>
+          <p class="text-sm text-gray-500 font-semibold mt-1">Submit your details.</p>
+        </div>
+        <button onclick="closeModal('registerModal')"
+          class="p-3 bg-white border border-gray-200 rounded-full hover:bg-gray-100 hover:-rotate-90 text-gray-500 transition-all shadow-sm">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
 
+      <!-- Modal Body (Scrollable Frame) -->
+      <div class="p-6 sm:p-10 overflow-y-auto no-scrollbar flex-grow bg-white">
+        <form id="registration-form" name="AEF Register" method="post" action="https://edu.alvas.org/eng/"
+          class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
 
+          <div class="md:col-span-2">
+            <label class="form-label">1. Enter your full Name</label>
+            <input type="text" id="full_name" name="full_name" required class="form-input" placeholder="e.g. John Doe">
+          </div>
 
-            <div class="row">
+          <div>
+            <label class="form-label">2. Phone Number</label>
+            <input type="tel" id="phone_number" name="phone_number" required class="form-input"
+              placeholder="10-digit number">
+          </div>
 
+          <div>
+            <label class="form-label">3. Email</label>
+            <input type="email" id="email" name="email" required class="form-input" placeholder="student@mail.com">
+          </div>
 
-            <div class="input-field col s12">
-            <i class="material-icons prefix">email</i>
-          <input id="email" type="email" name="email" class="validate" required="">
-          <label for="email">Email</label>
-          <span class="helper-text" data-error="Enter Proper Mail ID" data-success=""></span>
+          <div class="md:col-span-2">
+            <label class="form-label">4. PUC College Name</label>
+            <input type="text" id="puc_college" name="puc_college" required class="form-input"
+              placeholder="Name of your college">
+          </div>
+
+          <div>
+            <label class="form-label">5. Town Name or Taluk</label>
+            <input type="text" id="town_taluk" name="town_taluk" required class="form-input"
+              placeholder="Your Town or Taluk">
+          </div>
+
+          <div>
+            <label class="form-label">6. District</label>
+            <input type="text" id="district" name="district" required class="form-input" placeholder="Your District">
+          </div>
+
+          <div class="md:col-span-2">
+            <label class="form-label">7. Parents Contact Number</label>
+            <input type="tel" id="parents_contact" name="parents_contact" required class="form-input"
+              placeholder="10-digit number">
+          </div>
+
+          <div class="md:col-span-2">
+            <label class="form-label">8. Future Aspiration</label>
+            <textarea id="future_aspiration" name="future_aspiration" rows="3"
+              placeholder="What are your goals or dreams for the future?"
+              class="form-input resize-none leading-relaxed"></textarea>
+          </div>
+
+          <div class="md:col-span-2 pt-6 pb-2 border-t border-gray-100 mt-2">
+            <button type="submit" name="submit_button_cs"
+              class="btn-modern btn w-full py-5 bg-brand-700 text-white rounded-xl text-xl shadow-[0_15px_30px_-10px_rgba(29,78,216,0.5)]">
+              Submit Registration
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Login Modal -->
+  <div id="loginModal"
+    class="modal fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 bg-slate-900/80 backdrop-blur-md">
+    <!-- Close overlay -->
+    <div class="absolute inset-0 cursor-pointer" onclick="closeModal('loginModal')"></div>
+
+    <div class="modal-content relative w-full max-w-md bg-white rounded-[2rem] shadow-2xl overflow-hidden">
+      <button onclick="closeModal('loginModal')"
+        class="absolute top-5 right-5 p-2 bg-gray-50 border border-gray-100 rounded-full hover:bg-gray-100 hover:rotate-90 text-gray-500 transition-all z-10 shadow-sm">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+
+      <div class="p-8 sm:p-12 text-center">
+        <div class="w-24 h-24 mx-auto mb-6 flex items-center justify-center">
+          <img src="https://alvascentralschool.com/wp-content/uploads/2026/01/cropped-logo.png" alt="Alva's Logo"
+            class="h-auto w-full object-contain">
         </div>
 
-                
-                <div class="input-field col s12">
-                <i class="material-icons prefix">phone</i>
-                    <input id="input_text" type="number" min="6000000000" max="9999999999" title="Enter Proper Mobile Number" class="validate" name="number" data-length="10" required="">
-                    <label for="input_text">Phone Number</label>
-                    <span class="helper-text" data-error="Enter Proper Mobile Number" data-success=""></span>
-                <span class="character-counter" style="float: right; font-size: 12px; height: 1px;"></span></div>
-                
-            </div>
+        <h2 class="font-display font-black text-3xl text-gray-900 uppercase tracking-tight mb-2">Platform <span
+            class="text-brand-600">Access</span></h2>
+        <p class="text-sm text-gray-500 font-semibold mb-8">Secure login for registered students</p>
 
-           
-            <div class="row">
-            <center><p class="cyan-text text-darken-2">Tell us something about your achievements..!</p></center>
+        <form onsubmit="event.preventDefault(); alert('Login gateway integrated with main portal logic.');"
+          class="space-y-5 text-left">
+          <div>
+            <label class="form-label">Email / Student ID</label>
+            <input type="text" required placeholder="example@alvas.org" class="form-input py-4">
+          </div>
+          <div>
+            <label class="form-label">Secure Password</label>
+            <input type="password" required placeholder="••••••••" class="form-input py-4">
+          </div>
+          <div class="pt-4">
+            <button type="submit"
+              class="btn-modern btn w-full py-4 bg-gray-900 text-white hover:bg-black rounded-xl text-lg shadow-[0_15px_30px_-5px_rgba(0,0,0,0.3)]">
+              Login
+            </button>
+          </div>
+        </form>
 
-            
-            <div class="input-field col s12">
-    <i class="material-icons prefix">grade</i>
-    <div class="select-wrapper"><input class="select-dropdown dropdown-trigger" type="text" readonly="true" data-target="select-options-fa76df98-aab1-6f35-a61b-7b53065a9e9d"><ul id="select-options-fa76df98-aab1-6f35-a61b-7b53065a9e9d" class="dropdown-content select-dropdown" tabindex="0"><li id="select-options-fa76df98-aab1-6f35-a61b-7b53065a9e9d0" tabindex="0" class="selected"><span>None</span></li><li id="select-options-fa76df98-aab1-6f35-a61b-7b53065a9e9d1" tabindex="0"><span>Academic</span></li><li id="select-options-fa76df98-aab1-6f35-a61b-7b53065a9e9d2" tabindex="0"><span>Sports</span></li><li id="select-options-fa76df98-aab1-6f35-a61b-7b53065a9e9d3" tabindex="0"><span>Dance</span></li><li id="select-options-fa76df98-aab1-6f35-a61b-7b53065a9e9d4" tabindex="0"><span>Singing / Music</span></li><li id="select-options-fa76df98-aab1-6f35-a61b-7b53065a9e9d5" tabindex="0"><span>Fine Arts</span></li><li id="select-options-fa76df98-aab1-6f35-a61b-7b53065a9e9d6" tabindex="0"><span>Science &amp; Technology</span></li><li id="select-options-fa76df98-aab1-6f35-a61b-7b53065a9e9d7" tabindex="0"><span>Other</span></li></ul><svg class="caret" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><select name="achvmnts" required="" tabindex="-1">
-    <option value="None" selected="">None</option>
-      <option value="Academic">Academic</option>
-      <option value="Sports">Sports</option>
-      <option value="Dance">Dance</option>
-      <option value="Singing or Music">Singing / Music</option>
-      <option value="Fine Arts">Fine Arts</option>
-      <option value="Technical">Science &amp; Technology</option>
-      <option value="Other">Other</option>
-    </select></div>
-    <label>Type of achievement</label>
-  </div>
-</div>
-
-<div class="row">
-<div class="input-field col s12">
-<i class="material-icons prefix">grade</i>
-<textarea id="achv" max="200" data-length="200" placeholder="Max. 200 letters" title="In less than 200 characters" name="achvmnts_details" class="validate materialize-textarea"></textarea>
-<label for="achv" class="active">Few words about your achievements. (if any)</label>
-</div>
-</div>
-
-<div class="row">
-<div class="input-field col s12">
-            <i class="material-icons prefix">assignment_turned_in</i>
-                    <input id="pu_marks" min="30" max="99" title="Enter Proper Percentage" class="validate" step=".01" type="number" name="pu_marks" required="">                        
-                    <label for="pu_marks">12<sup>th</sup> Percentage</label>
-                    <span class="helper-text" data-error="Enter Proper Percentage" data-success=""></span>
-                </div>
-                
-            </div>     
-
-<center><p class="cyan-text text-darken-2">Select your Preferred Branch</p></center>
-
-
-
-
-<br>
-
-
-<div class="row">
-
- 
- 
-<div class="input-field col s12">
-<i class="material-icons prefix">book</i>
-     
-<div class="select-wrapper"><input class="select-dropdown dropdown-trigger" type="text" readonly="true" data-target="select-options-7e3c99dc-9390-2a36-1c45-3c1381f8849d"><ul id="select-options-7e3c99dc-9390-2a36-1c45-3c1381f8849d" class="dropdown-content select-dropdown" tabindex="0"><li class="optgroup" tabindex="0"><span>Branches in AIET</span></li><li class="optgroup-option" id="select-options-7e3c99dc-9390-2a36-1c45-3c1381f8849d0" tabindex="0"><span>Agriculture Engineering</span></li><li class="optgroup-option" id="select-options-7e3c99dc-9390-2a36-1c45-3c1381f8849d1" tabindex="0"><span>Artificial Intelligence &amp; Machine Learning</span></li><li class="optgroup-option selected" id="select-options-7e3c99dc-9390-2a36-1c45-3c1381f8849d2" tabindex="0"><span>Computer Science &amp; Engineering</span></li><li class="optgroup-option" id="select-options-7e3c99dc-9390-2a36-1c45-3c1381f8849d3" tabindex="0"><span>CSE ( IoT and Cyber Security ) </span></li><li class="optgroup-option" id="select-options-7e3c99dc-9390-2a36-1c45-3c1381f8849d4" tabindex="0"><span>CSE ( Data Science ) </span></li><li class="optgroup-option" id="select-options-7e3c99dc-9390-2a36-1c45-3c1381f8849d5" tabindex="0"><span>Computer Science &amp; Design </span></li><li class="optgroup-option" id="select-options-7e3c99dc-9390-2a36-1c45-3c1381f8849d6" tabindex="0"><span>Civil Engineering</span></li><li class="optgroup-option" id="select-options-7e3c99dc-9390-2a36-1c45-3c1381f8849d7" tabindex="0"><span>Electronics &amp; Communication Engineering</span></li><li class="optgroup-option" id="select-options-7e3c99dc-9390-2a36-1c45-3c1381f8849d8" tabindex="0"><span>Information Science &amp; Engineering</span></li><li class="optgroup-option" id="select-options-7e3c99dc-9390-2a36-1c45-3c1381f8849d9" tabindex="0"><span>Mechanical Engineering</span></li></ul><svg class="caret" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg><select name="after_pu" required="" tabindex="-1">
-<optgroup label="Branches in AIET">
-
-<option value="Eng Agri">Agriculture Engineering</option>
-<option value="Eng AI_ML">Artificial Intelligence &amp; Machine Learning</option>
-<option value="Eng CSE" selected="">Computer Science &amp; Engineering</option>
-<option value="Eng CSIOT">CSE ( IoT and Cyber Security ) </option>
-<option value="Eng CSDS">CSE ( Data Science ) </option>
-<option value="Eng CSD">Computer Science &amp; Design </option>
-<option value="Eng Civil">Civil Engineering</option>
-<option value="Eng ECE">Electronics &amp; Communication Engineering</option>
-<option value="Eng ISE">Information Science &amp; Engineering</option>
-<option value="Eng Mech">Mechanical Engineering</option>
-
-
-</optgroup>
-</select></div>
-    <label>Select the Branch :</label>
+        <div class="pt-8 mt-2 border-t border-gray-100">
+          <a href="#"
+            class="text-xs font-black text-brand-600 hover:text-brand-800 uppercase tracking-widest transition-colors">Forgot
+            Password?</a>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 
-            
-            
+  <!-- Interactive Scripts -->
+  <script>
+    // --- Slider Architecture ---
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.slider-dot');
+    let slideInterval;
 
+    function showSlide(index) {
+      if (slides.length === 0) return;
 
-            <div class="row">
-                
-                <div>
-                   <center> 
-                   <input type="submit" name="submit_button_cs" value="Register" class="input-field btn">
-                   </center>
-                </div>
-            </div></form></div><br><br>
+      // Boundary enforcement
+      if (index >= slides.length) currentSlide = 0;
+      else if (index < 0) currentSlide = slides.length - 1;
+      else currentSlide = index;
 
-<!--	    <div class='card hoverable z-depth-3'>
-          <br><br>
-          <center><p class='cyan-text text-darken-2'>Explore the Life at Alva's Engineering College</p>
-            <a target='_blank' href='https://www.youtube.com/watch?v=HKQGKlSz0NY' class="btn">Watch the Video</a>
-        
-            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/9iSx-AjpdoI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </center>
-          <br><br><br><br><br><br>
+      // Reset States
+      slides.forEach(slide => slide.classList.remove('active'));
+      dots.forEach(dot => {
+        dot.classList.remove('w-10', 'bg-white', 'shadow-[0_0_10px_rgba(255,255,255,0.6)]');
+        dot.classList.add('w-6', 'bg-white/30');
+      });
 
-        </div><br>
--->
+      // Activate Target
+      slides[currentSlide].classList.add('active');
+      dots[currentSlide].classList.remove('w-6', 'bg-white/30');
+      dots[currentSlide].classList.add('w-10', 'bg-white', 'shadow-[0_0_10px_rgba(255,255,255,0.6)]');
+    }
 
+    function changeSlide(direction) {
+      showSlide(currentSlide + direction);
+      resetInterval();
+    }
 
-	<div class="card hoverable z-depth-2">
-          <br><center>
-            <p class="cyan-text text-darken-2">Want to know more about AIET..?</p>
-            <a target="_blank" href="https://aiet.org.in/" class="btn">All branches under AIET</a>
-          </center>
-          <br>
-        </div><br>
-           <!-- <div class='card hoverable z-depth-3'>
-          <br><br>
-          <center><p class='cyan-text text-darken-2'>Explore the Life at Alva's Colleges</p>
-           
-        
-            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/YLBFSQtgD0Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </center>
-          <br><br><br><br><br><br>
+    function goToSlide(index) {
+      showSlide(index);
+      resetInterval();
+    }
 
-        </div> -->
-        <br>
-            
-            
-            
-            
-            
-            </div>
-        
+    function resetInterval() {
+      clearInterval(slideInterval);
+      slideInterval = setInterval(() => { changeSlide(1); }, 6500); // 6.5 seconds per slide
+    }
 
-</div>
+    // --- Modals Architecture ---
+    function openModal(id) {
+      const modal = document.getElementById(id);
+      if (modal) {
+        modal.classList.add('open');
+        document.body.style.overflow = 'hidden'; // Stop background scroll
+      }
+    }
 
-    
-    
+    function closeModal(id) {
+      const modal = document.getElementById(id);
+      if (modal) {
+        modal.classList.remove('open');
+        document.body.style.overflow = ''; // Resume background scroll
+      }
+    }
 
+    // Handle Escape Key Global
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        const openModal = document.querySelector('.modal.open');
+        if (openModal) closeModal(openModal.id);
+      }
+    });
 
+    // Bootstrap
+    document.addEventListener('DOMContentLoaded', () => {
+      showSlide(0);
+      resetInterval();
+      window.scrollTo(0, 0);
+    });
+  </script>
+</body>
 
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "dwr8bokuqn");
-</script>
-
-<div class="hiddendiv common" style="font-size: 16px; font-family: -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: normal; padding: 12px 0px; width: 865.5px;"><br></div></body><!--
-
-    Made by Chandan Shastri. https://chandanshastri.github.io
-
---></html>
+</html>
